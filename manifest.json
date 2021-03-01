@@ -7,10 +7,6 @@
 
     "manifest_version": 2,
 
-    "browser_action": {
-        "default_popup": "popup.html"
-    },
-
     "background": {
         "scripts": ["eventPage.js"],
         "persistent": false
@@ -19,6 +15,7 @@
     "permissions": [
         "storage",
         "notifications",
-        "contextMenus"
+        "contextMenus",
+        "tabs"
     ]
 }
